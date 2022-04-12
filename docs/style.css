@@ -1,0 +1,181 @@
+/*
+Balises générales
+*/
+body{
+	padding: 0px;
+	margin:0px;
+	background:rgb(61,228,31,0.4);
+	text-align: center;
+	font-family: 'times new roman';
+  	font-size:1.5em;
+}
+h1{
+	font-size: 2em;
+}
+.recette{
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.recette h2{
+  text-align: center;
+}
+#fraises{
+  border: solid 0.3em;
+  border-color: red; 
+}
+
+a{
+	color:rgb(0,0,0);
+}
+
+table{
+	border:solid;
+	border-collapse: collapse;
+	margin:3% 3% 3% 3%;
+	width:50%;
+}
+
+th,td{
+	border:solid 1px;
+	text-align: left;
+}
+
+.entete{
+	text-decoration: underline;
+	font-size: x-large;
+}
+
+section p{
+	text-align: justify;
+	padding: 0% 3% 2% 3%;
+  	min-width:40%;
+}
+.indications{
+	margin-left: 15%;
+	margin-right:15%;
+}
+.intro{
+	display: flex;
+
+}
+
+.images{
+	display: flex;
+}
+img {
+	max-width: 50%;
+	height: auto;
+	border: solid 3.5px rgb(255,255,255);
+		
+    margin-left: auto;
+    margin-right: auto;
+}
+footer img{
+	max-width: 170%;
+	height: auto;
+}
+/*
+Balises spécifiques
+*/
+.heures{
+    justify-content:center;
+}
+#table_heures{
+	margin-left:30%;
+}
+.coordonnees1{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
+	margin-left:5%;
+	margin-right:5%;
+}
+.coordonnees1 p{
+	min-width: 10%
+}
+.und{
+	text-decoration: underline;
+}
+
+
+/*
+header
+*/
+nav{
+	box-shadow: 3px 3px 3px rgb(0,0,0);
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	background:rgb(255,255,255,0.7); 
+}
+
+nav ul{
+	list-style: none;
+	display:flex;
+	font-size:xx-large;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+
+nav li{
+		margin:1% 2% 2% 2%;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:rgb(255,255,255);
+	background-color: rgb(0,128,0);
+	border-radius: 5px;
+}
+
+
+/*
+footer
+*/
+footer{
+	background: linear-gradient(#008000, #32CD32) bottom;
+	height:8em;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.bas{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.carte{
+	max-width: 5em;
+	max-height:5em;
+}
+.googlemap{
+	font-size: xx-large;
+}
+
+footer p{
+	text-align: justify;
+	padding-left:80%;
+}
+
+
+
+
+/*
+Mobilephone
+*/
+
+@media screen and (max-width:1280px){
+  img{
+  	max-width: 30%;
+    height:auto;
+  }
+  body{
+  	font-size:0.9em;
+    word-wrap:break-word;
+  }
+}
