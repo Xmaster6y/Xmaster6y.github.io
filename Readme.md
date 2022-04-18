@@ -1,3 +1,3 @@
 # Simple Website
 
-Showcase website for my parent shop public [here](domainedesmoines.fr)
+Showcase website for my parents' shop, publicly released [here](domainedesmoines.fr).
