@@ -21,8 +21,18 @@ h1{
   text-align: center;
 }
 #fraises{
-  border: solid 0.3em;
+  border: solid 0.2em;
   border-color: red; 
+  background-color: rgba(240, 11, 11, 0.336);
+  border-radius: 1em;
+  width: fit-content;
+  padding: 1%;
+}
+.p-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 a{
